@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Data Analyst portfolio showcasing analytics projects, technical skills, experience and research." />
+  <meta name="theme-color" content="#0b1020" />
+  <title>Vaishnavi Sarode | Data Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    (() => {
+      try {
+        const savedTheme = localStorage.getItem('portfolio-theme');
+        document.documentElement.dataset.theme = savedTheme === 'light' ? 'light' : 'dark';
+      } catch (error) {
+        document.documentElement.dataset.theme = 'dark';
+      }
+    })();
+  </script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Vaishnavi Sarode home"><span class="brand-mark">V</span><span>vaishnavi<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+        <a href="#experience">Experience</a><a href="#publication">Publication</a>
+        <a class="nav-cta" href="#contact">Let's connect <span>↗</span></a>
+      </div>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light mode">Light mode</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="status-dot"></span> OPEN TO DATA ANALYST OPPORTUNITIES</div>
+          <p class="hero-kicker">Hello, I'm</p>
+          <h1>Vaishnavi<br><span class="gradient-text">Sarode.</span></h1>
+          <h2 class="role-line"><span class="role-prefix">I am a</span> <span class="changing-role" id="changingRole" aria-live="polite">Data Analyst</span><span class="typing-cursor" aria-hidden="true"></span></h2>
+          <p class="hero-description">I turn raw data into clear insights and practical business decisions using SQL, Python, Excel and Power BI.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+            <a class="button button-ghost" href="assets/Vaishnavi_Sarode_Resume.pdf" download>Download resume <span>↓</span></a>
+          </div>
+          <div class="hero-socials">
+            <a href="https://www.linkedin.com/in/vaishnavi-sarode-274800391/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+            <a href="https://github.com/Vaishnavisarode" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+            <a class="btn primary"href="https://mail.google.com/mail/?view=cm&fs=1&to=sarodevaishnavia102@gmail.com"target="_blank">Email Me ↗</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="visual-orbit orbit-a"></div><div class="visual-orbit orbit-b"></div>
+          <div class="profile-card">
+            <div class="profile-top"><span>DATA / INSIGHTS</span><span class="live-pill">● ACTIVE</span></div>
+            <div class="profile-monogram">VS</div>
+            <div class="profile-caption"><span class="caption-line"></span><span>Curious by nature.<br>Analytical by approach.</span></div>
+            <div class="mini-chart">
+              <div class="chart-label"><span>Turning data into direction</span><span>↗</span></div>
+              <div class="bars"><i style="height:35%"></i><i style="height:52%"></i><i style="height:43%"></i><i style="height:72%"></i><i style="height:60%"></i><i style="height:88%"></i><i style="height:100%"></i></div>
+              <div class="chart-foot"><span>DATA</span><span>INSIGHT</span><span>IMPACT</span></div>
+            </div>
+          </div>
+          <div class="float-tag tag-sql"><span class="tag-icon">⌘</span> SQL</div>
+          <div class="float-tag tag-powerbi"><span class="tag-icon">▥</span> POWER BI</div>
+          <div class="float-tag tag-python"><span class="tag-icon">Py</span> PYTHON</div>  
+        </div>
+      </div>
+      <div class="container hero-bottom"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span><span>01 — 05</span></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-heading reveal"><p class="section-index">01 / ABOUT ME</p><h2>More than numbers.<br><span class="muted-heading">A story behind every dataset.</span></h2></div>
+        <div class="about-grid">
+          <div class="about-intro reveal"><p class="lead">I’m an aspiring <strong>Data Analyst</strong> with a background in Artificial Intelligence and Data Science.</p><p>I enjoy exploring datasets, asking better questions, identifying patterns and communicating findings in a way that supports business decisions. My approach combines technical analysis with curiosity, structured problem-solving and attention to detail.</p><p>I’m continuously strengthening my analytical toolkit through hands-on projects, learning and research.</p></div>
+          <div class="about-facts reveal">
+            <div class="fact"><span class="fact-number">2025</span><span class="fact-label">B.E. graduate<br>AI & Data Science</span></div>
+            <div class="fact"><span class="fact-number">SQL</span><span class="fact-label">Querying &<br>data exploration</span></div>
+            <div class="fact"><span class="fact-number">BI</span><span class="fact-label">Dashboards &<br>business insights</span></div>
+            <div class="fact"><span class="fact-number">AI</span><span class="fact-label">Research &<br>continuous learning</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal"><p class="section-index">02 / TOOLKIT</p><h2>Tools I use to make<br><span class="muted-heading">data make sense.</span></h2></div>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><div class="skill-card-head"><span class="skill-symbol">⌘</span><span class="skill-count">01</span></div><h3>Data Analysis</h3><p>Querying, cleaning, validating and exploring data to uncover useful patterns.</p><div class="skill-tags"><span>SQL</span><span>MySQL</span><span>BigQuery</span></div></article>
+          <article class="skill-card reveal"><div class="skill-card-head"><span class="skill-symbol">▥</span><span class="skill-count">02</span></div><h3>Business Intelligence</h3><p>Building interactive dashboards and translating KPIs into clear narratives.</p><div class="skill-tags"><span>Power BI</span><span>DAX</span><span>Power Query</span></div></article>
+          <article class="skill-card reveal"><div class="skill-card-head"><span class="skill-symbol">⌁</span><span class="skill-count">03</span></div><h3>Programming</h3><p>Using programming and data libraries to prepare, analyze and model datasets.</p><div class="skill-tags"><span>Python</span><span>Pandas</span><span>NumPy</span></div></article>
+          <article class="skill-card reveal"><div class="skill-card-head"><span class="skill-symbol">▦</span><span class="skill-count">04</span></div><h3>Productivity & Methods</h3><p>Working with spreadsheets, analytical thinking and clear documentation.</p><div class="skill-tags"><span>Advanced Excel</span><span>ML fundamentals</span><span>Data storytelling</span><span>Gen AI</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading section-heading-row reveal"><div><p class="section-index">03 / SELECTED WORK</p><h2>Projects with a<br><span class="muted-heading">purpose behind them.</span></h2></div><p class="heading-note">A selection of practical projects where I explore data, solve analytical problems and communicate findings.</p></div>
+        <div class="project-list">
+          <article class="project-card project-featured reveal">
+            <div class="project-visual visual-myntra"><div class="mock-window"><div class="mock-top"><span></span><span></span><span></span><b>MYNTRA / SALES OVERVIEW</b></div><div class="mock-kpis"><i><small>TOTAL ORDERS</small><strong>20K</strong></i><i><small>CUSTOMERS</small><strong>1K</strong></i><i><small>ANALYSIS</small><strong>SALES</strong></i></div><div class="mock-graph"><div class="mock-bars"><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b></div><div class="mock-donut"></div></div></div><span class="visual-label">POWER BI / 01</span></div>
+            <div class="project-info"><div class="project-meta"><span>BUSINESS INTELLIGENCE</span><span>01 — 05</span></div><h3>Myntra Sales & Customer Analytics</h3><p>Designed an interactive Power BI dashboard to explore e-commerce orders and customer data. Focused on data preparation, KPI reporting and building a clear overview that helps users investigate sales and customer patterns.</p><div class="project-tags"><span>Power BI</span><span>Power Query</span><span>DAX</span><span>Data Visualization</span></div><div class="project-links"><a href="https://github.com/Vaishnavisarode/Myntra-Sales-Customer-Analytics---PowerBI" target="_blank" rel="noreferrer">View project on GitHub ↗</a><span>Dashboard project</span></div></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-visual visual-churn"><div class="churn-ui"><div class="churn-title">CUSTOMER RETENTION <span>●</span></div><div class="churn-number">26.54<small>%</small><em>CHURN RATE</em></div><div class="churn-track"><i></i></div><div class="churn-legend"><span>● Retained 5,174</span><span>● Churned 1,869</span></div></div><span class="visual-label">BIGQUERY / 02</span></div>
+            <div class="project-info"><div class="project-meta"><span>CUSTOMER ANALYTICS</span><span>02 — 05</span></div><h3>Customer Churn & Retention Analysis</h3><p>Explored a telecom customer dataset in BigQuery, validated key fields and analyzed churn distribution. The cleaned dataset contains 7,043 customer records, with a calculated churn rate of 26.54%.</p><div class="project-tags"><span>BigQuery</span><span>SQL</span><span>Data Cleaning</span><span>Basic Python</span></div><div class="project-links"><a href="https://github.com/" target="_blank" rel="noreferrer">View project on GitHub ↗</a><span>Analytics project</span></div></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-visual visual-sql"><div class="sql-code"><span>SELECT</span> customer_id,<br>&nbsp; SUM(order_value) <span>AS</span> revenue<br><span>FROM</span> sales<br><span>GROUP BY</span> customer_id<br><span>ORDER BY</span> revenue DESC;</div><span class="visual-label">SQL / 03</span></div>
+            <div class="project-info"><div class="project-meta"><span>DATA EXPLORATION</span><span>03 — 05</span></div><h3>Amazon E-Commerce Sales Analysis</h3><p>Used SQL to explore sales data and answer business questions through joins, CTEs, subqueries and window functions, including customer-level analysis and customer lifetime value exploration.</p><div class="project-tags"><span>MySQL</span><span>Joins</span><span>CTEs</span><span>Window Functions</span></div><div class="project-links"><a href="https://github.com/Vaishnavisarode/amazon-ecommerce-sql-analysis" target="_blank" rel="noreferrer">View project on GitHub ↗</a><span>SQL project</span></div></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-visual visual-loan"><div class="loan-ui"><div class="loan-head">LOAN RISK / MODEL OVERVIEW</div><div class="loan-score">MODEL<br><strong>ANALYSIS</strong></div><div class="loan-lines"><i></i><i></i><i></i><i></i></div></div><span class="visual-label">PYTHON / ML / 04</span></div>
+            <div class="project-info"><div class="project-meta"><span>PREDICTIVE ANALYTICS</span><span>04 — 05</span></div><h3>Loan Risk Prediction</h3><p>Applied Python and machine learning concepts to a loan risk prediction problem, exploring how applicant and loan-related attributes can support risk assessment.</p><div class="project-tags"><span>Python</span><span>Machine Learning</span><span>Data Analysis</span></div><div class="project-links"><a href="https://github.com/Vaishnavisarode/Loan-Risk-Prediction" target="_blank" rel="noreferrer">View project on GitHub ↗</a><span>ML project</span></div></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-visual visual-food"><div class="food-ui"><div class="food-title">FOOD DELIVERY / INSIGHTS</div><div class="food-bars"><i></i><i></i><i></i><i></i><i></i></div><div class="Instant delivery"><span>ORDERS</span><span>REVENUE</span><span>Quick E-Commerce</span></div></div><span class="visual-label">POWER BI / 05</span></div>
+            <div class="project-info"><div class="project-meta"><span>OPERATIONS ANALYTICS</span><span>05 — 05</span></div><h3>Zipto Dark Store Analysis</h3><p>Built a Power BI dashboard concept to examine  Quick E-Commerce performance through operational and business metrics, supporting exploration of order trends and delivery, store, and products related insights.</p><div class="project-tags"><span>Power BI</span><span>Python</span><span>DAX</span><span>Dashboarding</span></div><div class="project-links"><a href="https://github.com/Vaishnavisarode/Zipto_Dark_Store_Analysis" target="_blank" rel="noreferrer">View project on GitHub ↗</a><span>Dashboard project</span></div></div>
+          </article>
+        </div>
+        <p class="project-disclaimer">Project descriptions reflect the work and scope completed to date. GitHub links are placeholders to be replaced with your repository URLs.</p>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-heading reveal"><p class="section-index">04 / JOURNEY</p><h2>Experience &<br><span class="muted-heading">education.</span></h2></div>
+        <div class="timeline">
+          <div class="timeline-item reveal"><div class="timeline-date">AUG 2025 — FEB 2026</div><div class="timeline-marker"></div><div class="timeline-content"><span class="timeline-type">INTERNSHIP</span><h3>Data Analyst Intern</h3><h4>Digital Den</h4><p>Supported learning and problem-solving across Python, data analysis and data science concepts. Helped learners work through programming questions and implementation challenges using step-by-step explanations and debugging support. Strengthened communication, mentoring and analytical problem-solving skills.</p></div></div>
+          <div class="timeline-item reveal"><div class="timeline-date">2025</div><div class="timeline-marker"></div><div class="timeline-content"><span class="timeline-type">EDUCATION</span><h3>B.E. — Artificial Intelligence & Data Science</h3><h4>Savitribai Phule Pune University (SPPU)</h4><p>Built a foundation in data science, artificial intelligence, analytical methods and programming.</p></div></div>
+          <div class="timeline-item reveal"><div class="timeline-date">CERTIFICATION</div><div class="timeline-marker"></div><div class="timeline-content"><span class="timeline-type">PROFESSIONAL LEARNING</span><h3>Data Analytics Certification</h3><h4>AccioJob</h4><p>Structured learning in data analytics with practical exposure to SQL, Excel, Python and Power BI.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section publication-section" id="publication">
+      <div class="container publication-wrap reveal">
+        <div class="publication-left"><p class="section-index">05 / RESEARCH & WRITING</p><div class="publication-icon">↗</div><p class="publication-overline">PUBLISHED RESEARCH</p><h2>Exploring how<br><span class="gradient-text">LLMs understand</span><br>new financial queries.</h2></div>
+        <div class="publication-right"><span class="journal-label">JOURNAL OF INFORMATION SYSTEMS ENGINEERING AND MANAGEMENT · 2025</span><h3>Q&A In Financial Queries Using Zero-Shot Learning with LLM for Novel Task Understanding</h3><p>Research exploring the use of zero-shot learning with large language models to understand and answer novel financial queries without task-specific training examples.</p><div class="doi">DOI: 10.52783/jisem.v10i42s.7922</div><a class="button button-light" href="https://jisem-journal.com/index.php/journal/article/view/7922" target="_blank" rel="noreferrer">Read publication <span>↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid reveal"><div><p class="section-index">06 / GET IN TOUCH</p><h2>Have a data challenge?<br><span class="muted-heading">Let's talk.</span></h2><p class="contact-copy">I'm interested in Data Analyst and Business Intelligence opportunities where I can learn, contribute and turn data into meaningful insights.</p></div><div class="contact-panel"><span class="contact-panel-label">START A CONVERSATION</span><a class="contact-email" href="mailto:sarodevaishnavi2003@gmail.com">sarodevaishnavi2003@gmail.com <span>↗</span></a><div class="contact-socials"><a href="https://www.linkedin.com/in/vaishnavi-sarode-274800391/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/Vaishnavisarode" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://medium.com/@vaishnavisarode1810" target="_blank" rel="noreferrer">Medium ↗</a></div></div></div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">V</span><span>vaishnavi<span class="brand-dot">.</span></span></a><span>Designed with purpose. Built around data.</span><span>© <span id="year"></span> Vaishnavi Sarode</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
