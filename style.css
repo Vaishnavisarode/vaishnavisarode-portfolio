@@ -47,23 +47,23 @@
 
 
 /* =====================================================
-   THEME SYSTEM — FOREST GREEN + WARM GOLD
-   Dark is the default. Light mode uses [data-theme="light"].
+   THEME SYSTEM — MIDNIGHT TEAL (DARK) + ORIGINAL LIGHT MODE
+   Dark is the default. Light mode keeps its existing palette.
 ===================================================== */
 :root {
   color-scheme: dark;
-  --bg: #101712;
-  --bg-alt: #17221a;
-  --panel: #1d2a20;
-  --panel-2: #253629;
-  --text: #f3f1e9;
-  --muted: #a9b5a6;
-  --accent: #a8c686;
-  --accent-2: #dfaa72;
-  --line: #344638;
-  --nav-bg: rgba(16, 23, 18, .88);
-  --shadow: rgba(0, 0, 0, .28);
-  --gradient: linear-gradient(110deg, #a8c686, #dfaa72);
+  --bg: #101820;
+  --bg-alt: #14232b;
+  --panel: #1b2d37;
+  --panel-2: #223945;
+  --text: #f2f5f7;
+  --muted: #a7b4be;
+  --accent: #20c7b5;
+  --accent-2: #55d6e8;
+  --line: #344a55;
+  --nav-bg: rgba(16, 24, 32, .90);
+  --shadow: rgba(0, 0, 0, .30);
+  --gradient: linear-gradient(110deg, #20c7b5, #55d6e8);
 }
 
 :root[data-theme="light"] {
@@ -348,3 +348,11 @@ body { background: var(--bg); color: var(--text); transition: background .3s eas
   background: var(--gradient) !important;
   color: #172018 !important;
 }
+
+
+/* Midnight Teal accents for dashboard mockups in dark mode only. */
+:root:not([data-theme="light"]) .mock-kpis i { background: #e4f3f2; }
+:root:not([data-theme="light"]) .mock-kpis strong { color: #167b78; }
+:root:not([data-theme="light"]) .mock-graph { background: #eaf4f4; }
+:root:not([data-theme="light"]) .mock-bars b { background: linear-gradient(180deg, #20c7b5, #55d6e8); }
+:root:not([data-theme="light"]) .mock-donut { border-color: #20c7b5; border-right-color: #55d6e8; border-bottom-color: #c8e4e2; }
