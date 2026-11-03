@@ -76,7 +76,7 @@ document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
     toggle.textContent = labelFor(selected);
     toggle.setAttribute('aria-label', selected === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
     const themeColor = document.querySelector('meta[name="theme-color"]');
-    if (themeColor) themeColor.setAttribute('content', selected === 'dark' ? '#101712' : '#f5f2e9');
+    if (themeColor) themeColor.setAttribute('content', selected === 'dark' ? '#101820' : '#f5f2e9');
     if (save) {
       try { localStorage.setItem('portfolio-theme', selected); } catch (error) { /* storage may be unavailable */ }
     }
