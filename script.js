@@ -1,6 +1,6 @@
 
 /* ---------- EDIT YOUR CONTENT HERE ---------- */
-const EMAIL='sarodevaishnavi2003@gmail.com';
+const EMAIL='sarodevaishnavia102@gmail.com';
 const COL={'Power BI':'#FFB84D','SQL':'#35D0BA','Python':'#9A8CFF','BigQuery':'#5AA9FF','Machine Learning':'#FF6F91','Gen AI':'#FF8A5B','Data Analysis':'#8EE06B'};
 const P=[
  {n:'Myntra Sales & Customer Analytics',t:'Dashboard',tools:['Power BI'],d:'Sales and customer behaviour analysis through interactive BI reporting, built with Power BI, DAX and data cleaning.',link:'https://github.com/Vaishnavisarode/Myntra-Sales-Customer-Analytics---PowerBI'},
