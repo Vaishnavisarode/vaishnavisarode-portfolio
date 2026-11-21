@@ -1,14 +1,14 @@
 
 /* ---------- EDIT YOUR CONTENT HERE ---------- */
 const EMAIL='sarodevaishnavi2003@gmail.com';
-const COL={'Power BI':'#FFB84D','SQL':'#35D0BA','Python':'#9A8CFF','BigQuery':'#5AA9FF','Machine Learning':'#FF6F91','Gen AI':'#FF8A5B','Data Analysis':'#8EE06B'};
+const COL={'Power BI':'#FFB84D','SQL':'#35D0BA','Python':'#9A8CFF','BigQuery':'#5AA9FF','Machine Learning':'#FF6F91','Gen AI':'#FF8A5B'};
 const P=[
  {n:'Myntra Sales & Customer Analytics',t:'Dashboard',tools:['Power BI'],d:'Sales and customer behaviour analysis through interactive BI reporting, built with Power BI, DAX and data cleaning.',link:'https://github.com/Vaishnavisarode/Myntra-Sales-Customer-Analytics---PowerBI'},
- {n:'Telecom Churn & Retention Analysis',t:'Analysis',tools:['BigQuery','SQL','Python'],d:'Customer churn exploration and retention-focused business insights, built with BigQuery, SQL and Python.',link:'https://github.com/Vaishnavisarode/Customer_Churn_Analysis'},
+ {n:'Telecom Churn & Retention Analysis',t:'Analysis',tools:['BigQuery','Power BI'],d:'Customer churn exploration and retention-focused business insights, built with BigQuery,Power BI.',link:'https://github.com/Vaishnavisarode/Customer_Churn_Analysis'},
  {n:'Loan Risk Prediction',t:'Machine learning',tools:['Python','Machine Learning'],d:'A machine learning approach to understanding loan risk patterns, built with Python and Pandas.',link:'https://github.com/Vaishnavisarode/Loan-Risk-Prediction'},
  {n:'Q&A for Financial Queries with Zero-Shot Learning and LLMs',t:'Generative AI',tools:['Gen AI','Python'],d:'A finance assistant that answers questions without task-specific fine-tuning. It uses LLaMA 2 with retrieval (FAISS and Sentence Transformers), routes each query by intent, and includes SIP, EMI and ROI calculators and CSV expense analysis. This work became my published research paper.',link:'https://github.com/Vaishnavisarode/Q-A_Financial_queries_ZSL_LLMs'},
  {n:'Amazon E-commerce SQL Analysis',t:'Analysis',tools:['SQL'],d:'A SQL-based analysis of Amazon e-commerce data to uncover business insights.',link:'https://github.com/Vaishnavisarode/amazon-ecommerce-sql-analysis'},
- {n:'Zipto Dark Store Analysis',t:'Analysis',tools:['Data Analysis'],d:'An analysis of Zipto dark store data to find insights that support better business decisions.',link:'https://github.com/Vaishnavisarode/Zipto_Dark_Store_Analysis'}
+ {n:'Zipto Dark Store Analysis',t:'Analysis',tools:['Power BI','Python'],d:'An analysis of Zipto dark store data to find insights that support better business decisions.',link:'https://github.com/Vaishnavisarode/Zipto_Dark_Store_Analysis'}
 ];
 const CERTS=[
  ['2025','Q&A in Financial Queries Using Zero-Shot Learning with LLM','Research paper published in JISEM','https://doi.org/10.52783/jisem.v10i42s.7922'],
